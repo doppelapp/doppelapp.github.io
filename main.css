@@ -212,6 +212,21 @@ p {
 #footer p a {
 	color: #3bbdff;
 }
+
+#privacy-sec {
+	padding: 8vh 8%;
+}
+#privacy-sec h2 {
+	text-align: left
+}
+#privacy-sec p {
+	padding-bottom: 8px;
+}
+#privacy-sec h4 {
+	font-size: 22px;
+	padding: 15px 0px 5px 0px;
+}
+
 /*animations*/
 .slideanim, .slideanim2, .slideanim3, .slideanim4 {visibility:hidden;}
 .slideUp, .slideLeft, .opaque {
