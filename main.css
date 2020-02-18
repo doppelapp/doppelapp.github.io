@@ -57,6 +57,7 @@ p {
 
 #header {
 	height: 105vh;
+	width: 100%;
 	padding: 5vh 8%;
 	background: url('images/doppel-website-main.png');
 	background-size: cover;
@@ -83,7 +84,7 @@ p {
 	margin-left: 12%;
 	box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
 }
-#comingsoon {
+#comingsoon, #comingsoon2 {
 	padding: 12px 20px;
 	background-color: black;
 	border-radius: 5px;
@@ -93,12 +94,26 @@ p {
 	font-weight: 400;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
+#comingsoon2 {
+	background-color: white;
+	color: #444;
+	margin: 0px 0px 0px 10px;
+}
 #comingsoon img {
 	height: 30px;
 	width: 30px;
 	margin-top: -5px;
 }
+#comingsoon2 img {
+	height: 26px;
+	width: 26px;
+	margin-top: -5px;
+}
 #comingsoon:hover {
+	opacity: 0.8;
+	text-decoration: none;
+}
+#comingsoon2:hover {
 	opacity: 0.8;
 	text-decoration: none;
 }
@@ -342,8 +357,11 @@ p {
 	}
 	#header {
 		height: auto;
-		padding: 5vh 5% 0px 5%;
+		padding: 5vh 0% 0px 5%;
 		text-align: center;
+	}
+	#header .row {
+		width: 100%;
 	}
 	#header h1 {
 		padding-top: 12vh;
@@ -359,6 +377,11 @@ p {
 		border-radius: 40px;
 		margin: 8vh 10%;
 		box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+	}
+	#comingsoon, #comingsoon2 {
+		display: block;
+		margin: 10px auto;
+		width: 90%;
 	}
 	#about {
 		padding: 0vh 5% 0vh 5%;
